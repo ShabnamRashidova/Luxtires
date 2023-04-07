@@ -249,10 +249,10 @@ header .social-media-links li a:hover {
 }
 
 #banner .slick-dots button {
-    width: 18px;
+    width: 15px;
     font-size: 0;
     margin-right: 10px;
-    height: 18px;
+    height: 15px;
     background-color: rgba(255, 255, 255, 0.77);
     border-radius: 50%;
 }
@@ -266,9 +266,7 @@ header .social-media-links li a:hover {
     position: absolute;
     content: '';
     left: -3px;
-    right: 0;
-    top: -3px;
-    bottom: 0;
+    top: -3.1px;
     width: 130%;
     height: 130%;
     border-radius: 50%;
@@ -440,10 +438,10 @@ header .social-media-links li a:hover {
 }
 
 .products .slick-dots button {
-    width: 18px;
+    width: 15px;
     font-size: 0;
     margin-right: 10px;
-    height: 18px;
+    height: 15px;
     border: none;
     background: rgba(107, 71, 150, 0.33);
     border-radius: 50%;
@@ -458,9 +456,7 @@ header .social-media-links li a:hover {
     position: absolute;
     content: '';
     left: -3px;
-    right: 0;
-    top: -3px;
-    bottom: 0;
+    top: -3.1px;
     width: 130%;
     height: 130%;
     border-radius: 50%;
@@ -672,6 +668,9 @@ header .social-media-links li a:hover {
     text-align: center;
     padding: 70px 0;
 }
+.testimonial-page .testimonial .testimonial-item  {
+    background-color: #fff;
+   }
 
 .testimonial .testimonial-item .rating {
     display: flex;
@@ -721,7 +720,7 @@ header .social-media-links li a:hover {
 
 .testimonial .slick-dots .slick-active button::after {
     position: absolute;
-    content: '';
+    content: '';      
     left: -3px;
     right: 0;
     top: -3.1px;
