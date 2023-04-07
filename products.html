@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
+  <!-- Bootstrap Css-->
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./assets/font-awesome/css/all.min.css" />
+  <!-- Slick Slider Css -->
+  <link rel="stylesheet" href="./assets/slick/slick.css" />
+  <!-- Fancybox Css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <!--   Main  Css  -->
+  <link rel="stylesheet" href="./css/main/main.css" />
+  <link rel="stylesheet" href="./css/main/responsive.css">
+  <title>Luxtires</title>
+</head>
+
+<body>
+  <header class="general-header">
+    <div class="container">
+      <div class="header-top">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-4">
+            <a href="./index.html" class="logo">
+              <img src="./assets/images/logo/luxtires-logo.png" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <div class="d-flex justify-content-center">
+              <form action="" class="search-form">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Axtar"
+                    aria-label="Axtar"
+                    aria-describedby="basic-addon2"
+                  />
+                  <div class="input-group-append">
+                    <button type="submit"
+                      class="input-group-text search-icon"
+                      id="basic-addon2"
+                    >
+                      <img src="./assets/images/icon/search.svg" alt=""
+                    /></button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <ul
+              class="social-media-links d-flex justify-content-end align-items-center"
+            >
+              <li>
+                <a href="" class="link"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="" class="link"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li>
+                <a href="" class="link"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="" class="link"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="" class="link"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="./whyus.html" class="nav-link">Haqqımızda</a>
+            </li>
+            <li class="nav-item">
+              <a href="./products.html" class="nav-link">Məhsullar</a>
+            </li>
+            <li class="nav-item">
+              <a href="./actions.html" class="nav-link"
+                >Aksiyalar və Yeniliklər</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./reviews.html" class="nav-link">Müştəri rəyləri</a>
+            </li>
+            <li class="nav-item">
+              <a href="./gallery.html" class="nav-link">Qalereya</a>
+            </li>
+            <li class="nav-item">
+              <a href="./contact.html" class="nav-link">Əlaqə</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <header class="header-mobile d-lg-none d-md-block">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-4">
+          <a href="./index.html" class="logo">
+            <img src="./assets/images/logo/luxtires-logo.png" alt="" />
+          </a>
+        </div>
+        <div class="col-4 d-flex justify-content-end">
+          <div class="menu-icon">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="overlay"></div>
+  <main class="products-page">
+    <div class="breadcrumb-area">
+      <div class="heading">Məhsullar</div>
+      <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Ana səhifə</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Məhsullar</li>
+        </ol>
+      </nav>
+    </div>
+    <section class="products" style="background: none;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-5 col-9   col-md-4 products-filter">
+            <form action="">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item products-filter-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      növ
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <fieldset>
+                        <div class="products-filter-item-body">
+                          <input type="checkbox" id="brand-allow" value="allow">
+                          <label for="brand-allow">
+                            Allow
+                          </label>
+                          <input type="checkbox" id="brand-steel" value="steel">
+                          <label for="brand-steel">
+                            steel
+                          </label>
+                          <input type="checkbox" id="brand-cast" value="cast">
+                          <label for="brand-cast">
+                            cast
+                          </label>
+                        </div>
+                      </fieldset>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item products-filter-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      kateqoriya
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <fieldset>
+                        <div class="products-filter-item-body">
+                          <input type="checkbox" id="category1" value="category1">
+                          <label for="category1">
+                            kateqoriya1
+                          </label>
+                          <input type="checkbox" id="category2" value="category2">
+                          <label for="category2">
+                            kateqoriya2
+                          </label>
+                        </div>
+                      </fieldset>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item products-filter-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      qiymət
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <fieldset>
+                        <div class="products-filter-item-body">
+                          <div class="range-slider">
+
+                            <div class="result-container">
+                              <div class="min-num">
+                                <input type="number" value="0" min="0" max="1459" id="result-min" name="min">
+                                ₼
+                              </div>
+                              <div class="max-num"><input type="number" value="1459" min="0" max="1459" id="result-max"
+                                  name="max"> ₼
+                              </div>
+                            </div>
+                            <div class="range-container">
+                              <input max="1459" type="range" value="0">
+
+                              <input type="range" min="0" max="1459" value="1459">
+                            </div>
+                          </div>
+                        </div>
+                      </fieldset>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item products-filter-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      ölçü
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <fieldset>
+                        <div class="products-filter-item-body">
+                          <input type="checkbox" id="24" value="24">
+                          <label for="24">
+                            24x24
+                          </label>
+                          <input type="checkbox" id="54" value="54">
+                          <label for="54">
+                            54x54
+                          </label>
+                          <input type="checkbox" id="36" value="36">
+                          <label for="36">
+                            36x36
+                          </label>
+                          <input type="checkbox" id="96" value="96">
+                          <label for="96">
+                            96x96
+                          </label>
+                        </div>
+                      </fieldset>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-9 col-md-12 ">
+          <div>
+            <button class="filter-btn">
+              <i class="fa-solid fa-filter"></i>
+            </button>
+          </div>
+            <div class="sort-filter">
+              <div class="item">
+                <div class="item-header">Populyarlığına görə <span><img style="width: 20px;"
+                      src="./assets/images/icon/arrow.svg" alt=""></span></div>
+                <div class="item-body">
+                  <ul class="menu">
+                    <li><a href="">ucuzdan bahaya</a></li>
+                    <li><a href="">bahadan ucuza</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-header">qiymətinə görə <span><img style="width: 20px;"
+                      src="./assets/images/icon/arrow.svg" alt=""></span></div>
+                <div class="item-body">
+                  <ul class="menu">
+                    <li><a href="">ucuzdan bahaya</a></li>
+                    <li><a href="">bahadan ucuza</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-header">adına görə <span><img style="width: 20px;"
+                      src="./assets/images/icon/arrow.svg" alt=""></span></div>
+                <div class="item-body">
+                  <ul class="menu">
+                    <li><a href="">ucuzdan bahaya</a></li>
+                    <li><a href="">bahadan ucuza</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="product-content row">
+              <div class="col-sm-6 col-md-4">
+
+                <div class="product">
+                  <div class="img">
+                    <a href="./product-detail.html">
+                      <img src="./assets/images/products/PngItem_142592 1.png" alt="product-img" /></a>
+                  </div>
+                  <a href="./product-detail.html" class="desc">allow wheels</a>
+                  <div class="price">190 ₼</div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+
+                <div class="product">
+                  <div class="img">
+                    <a href="./product-detail.html">
+                      <img src="./assets/images/products/PngItem_142592 1.png" alt="product-img" /></a>
+                  </div>
+                  <a href="./product-detail.html" class="desc">allow wheels</a>
+                  <div class="price">190 ₼</div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+
+                <div class="product">
+                  <div class="img">
+                    <a href="./product-detail.html">
+                      <img src="./assets/images/products/PngItem_142592 1.png" alt="product-img" /></a>
+                  </div>
+                  <a href="./product-detail.html" class="desc">allow wheels</a>
+                  <div class="price">190 ₼</div>
+                </div>
+              </div>
+
+
+              <div class="col-sm-6 col-md-4">
+                <div class="product">
+                  <div class="img">
+                    <a href="./product-detail.html">
+                      <img src="./assets/images/products/PngItem_4771277 1.png" alt="product-img" /></a>
+                  </div>
+                  <a href="./product-detail.html" class="desc">cast wheels</a>
+                  <div class="price">230 ₼</div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="product">
+                  <div class="img">
+                    <a href="./product-detail.html"><img src="./assets/images/products/PngItem_1125593 1.png" alt="product-img" /></a>
+                  </div>
+                  <a href="./product-detail.html" class="desc">split rim wheels</a>
+                  <div class="price">340 ₼</div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="product">
+                  <div class="img">
+                    <a href="./product-detail.html"><img src="./assets/images/products/PngItem_1125593 1.png" alt="product-img" /></a>
+                  </div>
+                  <a href="./product-detail.html" class="desc">split rim wheels</a>
+                  <div class="price">340 ₼</div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="product">
+                  <div class="img">
+                    <a href="./product-detail.html"><img src="./assets/images/products/PngItem_1125593 1.png" alt="product-img" /></a>
+                  </div>
+                  <a href="./product-detail.html" class="desc">split rim wheels</a>
+                  <div class="price">340 ₼</div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="product">
+                  <div class="img">
+                    <a href="./product-detail.html"><img src="./assets/images/products/PngItem_1125593 1.png" alt="product-img" /></a>
+                  </div>
+                  <a href="./product-detail.html" class="desc">split rim wheels</a>
+                  <div class="price">340 ₼</div>
+                </div>
+              </div>
+            </div>
+            <nav aria-label="Page navigation example">
+              <ul class="pagination justify-content-center mt-3">
+                <li class="page-item"><a class="page-link " href="#"><i class="fa-solid fa-arrow-left-long"></i></a>
+                </li>
+                <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link " href="#"><i class="fa-solid fa-arrow-right-long"></i></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+  </main>
+  <footer
+  class="general-footer"
+  style="
+    background: linear-gradient(
+        to bottom,
+        rgba(232, 232, 232, 0.85),
+        rgba(232, 232, 232, 0.85)
+      ),
+      url(./assets/images/footer/kool-c-GUkCocksjK8-unsplash\ 1.png);
+  "
+>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+        <div class="footer-column">
+          <ul class="footer-nav">
+            <li><a href="./whyus.html">Haqqımızda</a></li>
+            <li><a href="./products.html">Məhsullar</a></li>
+            <li><a href="./actions.html">Aksiyalar və Yeniliklər</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+        <div class="footer-column">
+          <ul class="footer-nav">
+            <li><a href="./reviews.html">Müştəri rəyləri</a></li>
+            <li><a href="./gallery.html">Qalereya</a></li>
+            <li><a href="./contact.html">Əlaqə</a></li>
+            <li><a href="./faq.html">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+        <div class="footer-column">
+          <a href="" class="num">*111</a>
+          <a href="" class="num border-bottom pb-2">(050) 356 08 64</a>
+          <ul class="social-media-links d-flex align-items-center">
+            <li>
+              <a href="" class="link"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a href="" class="link"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li>
+              <a href="" class="link"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="" class="link"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="" class="link"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- Jquery-->
+  <script src="./js/jquery/jquery.min.js"></script>
+  <!-- Bootstrap Js-->
+  <script src="js/bootstrap/bootstrap.min.js"></script>
+  <!-- Slick Slider Js -->
+  <script src="./assets/slick/slick.min.js"></script>
+  <!-- Fancybox Js -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <!-- Main Js -->
+  <script src="./js/main/main.js"></script>
+</body>
+
+</html>
