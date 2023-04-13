@@ -286,5 +286,11 @@ if($(this).scrollTop()>=120){
   $(".back-to-top").removeClass("show");
 }
   })
- 
+  $(document).ready(function() {
+    $('.count').counterUp({
+      delay: 10,
+      time: 1000
+    });
+  });
+  AOS.init();
 });

@@ -61,6 +61,14 @@
     .product-detail .name {
         font-size: 30px;
     }
+    .product-detail .name {
+       font-size: 20px;
+    }
+    .product-detail .emblem{
+        width: 80px;
+        font-size: 16px;
+        height: 40px;
+    }
 }
 
 
@@ -175,6 +183,14 @@
     .filter-btn {
         display: block;
     }
+    .product-detail .name {
+        font-size: 18px;
+     }
+     .product-detail .emblem{
+         width: 70px;
+         font-size: 16px;
+         height: 35px;
+     }
 }
 
 @media screen and (max-width:768px) {
@@ -200,6 +216,10 @@
     }
     .actions #countdown ul li .num{
         font-size: 18px;
+    }
+    .features .features-info div {
+  
+       font-size: 15px;
     }
 }
 
