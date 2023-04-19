@@ -9,9 +9,9 @@ $(function () {
     autoplay: true,
     autoplaySpeed: 3000,
     prevArrow:
-      '<img class="arrow prev" src="./assets/images/icon/left-arrow.png" alt="">',
+      '<img class="arrow prev" src="./assets/images/icon/chevron-left.svg" alt="">',
     nextArrow:
-      '<img class="arrow next" src="./assets/images/icon/right-arrow.png" alt="">',
+      '<img class="arrow next" src="./assets/images/icon/chevron-right.svg" alt="">',
   });
   $(".testimonial-slider").slick({
     arrows: true,
@@ -19,23 +19,20 @@ $(function () {
     dotsClass: "slick-dots",
     slidesToShow: 1,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 3000,
     prevArrow:
-      '<img class="arrow prev" src="./assets/images/icon/left-arrow.png" alt="">',
-    nextArrow:
-      '<img class="arrow next" src="./assets/images/icon/right-arrow.png" alt="">',
+    '<img class="arrow prev" src="./assets/images/icon/chevron-left.svg" alt="">',
+   nextArrow:
+    '<img class="arrow next" src="./assets/images/icon/chevron-right.svg" alt="">',
   });
   $(".products-slider").slick({
     infinite: true,
-    arrows: true,
+    arrows: false,
     dots: true,
     slidesToShow: 4,
     slidesToScroll: 1,
-    prevArrow:
-      '<img class="arrow prev" src="./assets/images/icon/left-arrow.png" alt="">',
-    nextArrow:
-      '<img class="arrow next" src="./assets/images/icon/right-arrow.png" alt="">',
+
     responsive: [
       {
         breakpoint: 1200,
