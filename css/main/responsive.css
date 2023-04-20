@@ -291,6 +291,12 @@
         padding: 0 15px;
     }
     .products .product{
-        margin: 35px 0;
+        margin: 0 10px 35px;
+    }
+    .section-title{
+        margin-bottom: 20px;
+    }
+    .general-footer .footer-column{
+        border: none;
     }
 }

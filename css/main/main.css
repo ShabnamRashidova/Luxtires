@@ -861,19 +861,12 @@ section:hover .prev {
     color: #4E4C4C;
     margin-bottom: 15px;
     display: block;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 17px;
     position: relative;
 }
 
-.general-footer .footer-column a {
-    color: #4E4C4C;
-    margin-bottom: 15px;
-    display: block;
-    font-weight: 600;
-    font-size: 17px;
-    position: relative;
-}
+
 
 .general-footer .social-media-links li {
     margin-right: 15px;
