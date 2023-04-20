@@ -156,13 +156,10 @@
     .breadcrumb-area {
         height: 300px;
     }
-    .products .product .img a{
-        height: 180px;
-    }
     .products .product .desc{
         padding: 7px;
         font-size: 13px;
-        margin: 5px 15px ;
+        margin: 20px  ;
     }
     .products .product .price{
         font-size: 18px;
@@ -181,7 +178,7 @@
     }
 
     .products {
-        padding: 20px 0;
+        padding: 50px 0;
     }
 
     .product-detail .name {
@@ -208,6 +205,15 @@
 }
 
 @media screen and (max-width:768px) {
+    .section-title{
+        font-size: 25px;
+    }
+    .section-title img{
+        margin-right: -14px;
+        width: 35px;
+        height: 35px;
+        object-fit: contain;
+    }
     #banner{
         padding: 40px 0;
     }
@@ -280,5 +286,11 @@
     }
     #banner .read-more::after{
         left: -6px;
+    }
+    .products .product-content{
+        padding: 0 15px;
+    }
+    .products .product{
+        margin: 35px 0;
     }
 }
