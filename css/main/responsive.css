@@ -82,7 +82,7 @@
         top: 0;
         height: 100vh;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-        z-index: 99;
+        z-index: 99999;
         display: none;
     }
 
@@ -205,6 +205,9 @@
 }
 
 @media screen and (max-width:768px) {
+    .about-us .whyus-pr-title{
+        font-size: 40px;
+    }
     .section-title{
         font-size: 25px;
     }
@@ -267,6 +270,9 @@
 }
 
 @media screen and (max-width:576px) {
+    .about-us .whyus-pr-title{
+        font-size: 28px;
+    }
     .header-mobile .logo {
         width: 200px;
     }
