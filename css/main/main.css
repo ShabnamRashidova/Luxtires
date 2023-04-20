@@ -974,7 +974,7 @@ section:hover .prev {
 }
 
 .products-page .sort-filter .item .item-header {
-    padding: 15px 30px;
+    padding: 15px;
 }
 
 .products-page .sort-filter .item .item-header:hover {
@@ -1023,6 +1023,15 @@ section:hover .prev {
     border-radius: 10px;
 
 }
+.products-filter .filter-btn-1 {
+    background: linear-gradient(90deg, #6B4796 0%, #95467D 100%);
+color: #fff;
+padding: 10px 20px;
+transition: all 0.4s ease ;
+}
+.products-filter .filter-btn-1:hover {
+   transform: scale(1.03);
+}
 
 .products-filter .accordion-item .accordion-header {
     border: none;
@@ -1037,7 +1046,7 @@ section:hover .prev {
         rgba(239, 239, 239, 1);
     color: #333;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .products-filter .accordion-item .accordion-button:focus {
@@ -1066,8 +1075,8 @@ section:hover .prev {
 
 .products-filter .products-filter-item-body label {
     margin-bottom: 10px;
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
     text-transform: capitalize;
     position: relative;
     display: flex;
