@@ -298,5 +298,6 @@
     }
     .general-footer .footer-column{
         border: none;
+        text-align: center;
     }
 }
