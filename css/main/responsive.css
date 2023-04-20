@@ -61,10 +61,12 @@
     .product-detail .name {
         font-size: 30px;
     }
+
     .product-detail .name {
-       font-size: 20px;
+        font-size: 20px;
     }
-    .product-detail .emblem{
+
+    .product-detail .emblem {
         width: 80px;
         font-size: 16px;
         height: 40px;
@@ -154,7 +156,17 @@
     .breadcrumb-area {
         height: 300px;
     }
-
+    .products .product .img a{
+        height: 180px;
+    }
+    .products .product .desc{
+        padding: 7px;
+        font-size: 13px;
+        margin: 5px 15px ;
+    }
+    .products .product .price{
+        font-size: 18px;
+    }
     .products-filter {
         display: none;
         position: fixed;
@@ -183,17 +195,40 @@
     .filter-btn {
         display: block;
     }
+
     .product-detail .name {
         font-size: 18px;
-     }
-     .product-detail .emblem{
-         width: 70px;
-         font-size: 16px;
-         height: 35px;
-     }
+    }
+
+    .product-detail .emblem {
+        width: 70px;
+        font-size: 16px;
+        height: 35px;
+    }
 }
 
 @media screen and (max-width:768px) {
+    #banner{
+        padding: 40px 0;
+    }
+    #banner .slick-dots {
+        margin-top: 20px;
+    }
+    #banner .heading {
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    #banner .desc {
+        font-size: 16px;
+    }
+
+    #banner .read-more {
+        max-width: 180px;
+        font-size: 15px;
+        height: 45px;
+    }
+
     .products-page .sort-filter {
         flex-direction: column;
     }
@@ -214,12 +249,14 @@
         height: 70px;
         padding: 10px;
     }
-    .actions #countdown ul li .num{
+
+    .actions #countdown ul li .num {
         font-size: 18px;
     }
+
     .features .features-info div {
-  
-       font-size: 15px;
+
+        font-size: 15px;
     }
 }
 
@@ -228,11 +265,20 @@
         width: 200px;
     }
 
-    .header-mobile .menu-icon {
-        width: 30px;
-    }
-
     .breadcrumb-area {
         height: 250px;
+    }
+    #banner .heading {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    #banner .desc {
+        font-size: 15px;
+        letter-spacing: normal;
+        line-height: 1.7;
+    }
+    #banner .read-more::after{
+        left: -6px;
     }
 }

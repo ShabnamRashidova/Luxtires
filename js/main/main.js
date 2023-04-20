@@ -48,7 +48,7 @@ $(function () {
         },
       },
       {
-        breakpoint: 500,
+        breakpoint: 550,
 
         settings: {
           arrows: false,
