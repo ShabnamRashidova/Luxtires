@@ -1,4 +1,7 @@
 $(function () {
+  $(window).on("load",()=>{
+    $(".preloader").hide();
+  })
   // Slider
   $(".banner-slider").slick({
     arrows: true,
