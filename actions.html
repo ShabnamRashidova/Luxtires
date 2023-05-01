@@ -33,7 +33,7 @@
       href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
     />
     <!-- Aos Css -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!--   Main  Css  -->
     <link rel="stylesheet" href="./css/main/main.css" />
     <link rel="stylesheet" href="./css/main/responsive.css" />
@@ -41,6 +41,12 @@
   </head>
 
   <body>
+     <!-- preloader -->
+     <div class="preloader">
+      <div class="preloader-img">
+        <img src="./assets/images/icon/loading.gif" alt="preloader-img">
+      </div>
+    </div>
     <header class="general-header">
       <div class="container">
         <div class="header-top">
@@ -62,12 +68,13 @@
                       aria-describedby="basic-addon2"
                     />
                     <div class="input-group-append">
-                      <button type="submit"
+                      <button
+                        type="submit"
                         class="input-group-text search-icon"
                         id="basic-addon2"
                       >
-                        <img src="./assets/images/icon/search.svg" alt=""
-                      /></button>
+                        <img src="./assets/images/icon/search.svg" alt="" />
+                      </button>
                     </div>
                   </div>
                 </form>
@@ -78,19 +85,26 @@
                 class="social-media-links d-flex justify-content-end align-items-center"
               >
                 <li>
-                  <a href="mailto:info@luxtires.az
-                  " class="link"
-                    ><i class="fa-regular fa-envelope"></i></a>
+                  <a
+                    href="mailto:info@luxtires.az
+                  "
+                    class="link"
+                    ><i class="fa-regular fa-envelope"></i
+                  ></a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/company/luxtiresaz/ " class="link"
+                  <a
+                    href="https://www.linkedin.com/company/luxtiresaz/ "
+                    class="link"
                     ><i class="fa-brands fa-linkedin-in"></i
                   ></a>
                 </li>
 
                 <li>
-                  <a href="https://www.instagram.com/nexentire.az/?igshid=YmMyMTA2M2Y%3D
-                  " class="link"
+                  <a
+                    href="https://www.instagram.com/nexentire.az/?igshid=YmMyMTA2M2Y%3D
+                  "
+                    class="link"
                     ><i class="fa-brands fa-instagram"></i
                   ></a>
                 </li>
@@ -151,128 +165,192 @@
         <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Ana səhifə</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Aksiyalar və Yeniliklər</li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Aksiyalar və Yeniliklər
+            </li>
           </ol>
         </nav>
       </div>
 
-    <section class="actions">
-      <div class="container">
-       <div class="row">
-        <div class="col-12">
-          <div class="single-item mb-2" data-aos-duration="1000" data-aos="fade-up">
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="action-image">
-                  <img src="./assets/images/actions/actions.png" alt="action-img">
-                </div>
-              </div>
-              <div class="col-lg-8 px-4">
-                <div class="action-info">
-                  <div class="action-title">böyük endirim</div>
-                  <div class="action-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis laboriosam ab incidunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sapiente saepe corporis magni officiis!
-                    .</div>
-                    <div class="price">
-                      <div class="old-price">190 ₼</div>
-                      <div class="new-price">170 ₼</div>
+      <section class="actions">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div
+                class="single-item mb-2"
+                data-aos-duration="1000"
+                data-aos="fade-up"
+              >
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="action-image">
+                      <img
+                        src="./assets/images/actions/actions.png"
+                        alt="action-img"
+                      />
                     </div>
-                  <div id="countdown">
-                    <ul>
-                        <li><span class="num" id="days">2</span><span>gün</span></li>
-                        <li><span class="num" id="hours">12</span><span>saat</span></li>
-                        <li><span class="num" id="minutes">32</span><span>dəqiqə</span></li>
-                        <li><span class="num" id="seconds">21</span><span>saniyə</span></li>
-                    </ul>
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12">
-          <div class="single-item mb-2" data-aos-duration="1000" data-aos="fade-up">
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="action-image">
-                  <img src="./assets/images/actions/actions.png" alt="action-img">
-                </div>
-              </div>
-              <div class="col-lg-8 px-4">
-                <div class="action-info">
-                  <div class="action-title">böyük endirim</div>
-                  <div class="action-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis laboriosam ab incidunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sapiente saepe corporis magni officiis!
-                    .</div>
-                    <div class="price">
-                      <div class="old-price">190 ₼</div>
-                      <div class="new-price">170 ₼</div>
+                  </div>
+                  <div class="col-lg-8 px-4">
+                    <div class="action-info">
+                      <div class="action-title">böyük endirim</div>
+                      <div class="action-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Facilis laboriosam ab incidunt Lorem ipsum dolor sit
+                        amet consectetur adipisicing elit. Modi sapiente saepe
+                        corporis magni officiis! .
+                      </div>
+                      <div class="price">
+                        <div class="old-price">190 ₼</div>
+                        <div class="new-price">170 ₼</div>
+                      </div>
+                      <div id="countdown">
+                        <ul>
+                          <li>
+                            <span class="num" id="days">2</span><span>gün</span>
+                          </li>
+                          <li>
+                            <span class="num" id="hours">12</span
+                            ><span>saat</span>
+                          </li>
+                          <li>
+                            <span class="num" id="minutes">32</span
+                            ><span>dəqiqə</span>
+                          </li>
+                          <li>
+                            <span class="num" id="seconds">21</span
+                            ><span>saniyə</span>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
-                  <div id="countdown">
-                    <ul>
-                        <li><span class="num" id="days">2</span><span>gün</span></li>
-                        <li><span class="num" id="hours">12</span><span>saat</span></li>
-                        <li><span class="num" id="minutes">32</span><span>dəqiqə</span></li>
-                        <li><span class="num" id="seconds">21</span><span>saniyə</span></li>
-                    </ul>
+                  </div>
                 </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div
+                class="single-item mb-2"
+                data-aos-duration="1000"
+                data-aos="fade-up"
+              >
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="action-image">
+                      <img
+                        src="./assets/images/actions/actions.png"
+                        alt="action-img"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-8 px-4">
+                    <div class="action-info">
+                      <div class="action-title">böyük endirim</div>
+                      <div class="action-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Facilis laboriosam ab incidunt Lorem ipsum dolor sit
+                        amet consectetur adipisicing elit. Modi sapiente saepe
+                        corporis magni officiis! .
+                      </div>
+                      <div class="price">
+                        <div class="old-price">190 ₼</div>
+                        <div class="new-price">170 ₼</div>
+                      </div>
+                      <div id="countdown">
+                        <ul>
+                          <li>
+                            <span class="num" id="days">2</span><span>gün</span>
+                          </li>
+                          <li>
+                            <span class="num" id="hours">12</span
+                            ><span>saat</span>
+                          </li>
+                          <li>
+                            <span class="num" id="minutes">32</span
+                            ><span>dəqiqə</span>
+                          </li>
+                          <li>
+                            <span class="num" id="seconds">21</span
+                            ><span>saniyə</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div
+                class="single-item mb-2"
+                data-aos-duration="1000"
+                data-aos="fade-up"
+              >
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="action-image">
+                      <img
+                        src="./assets/images/actions/actions.png"
+                        alt="action-img"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-8 px-4">
+                    <div class="action-info">
+                      <div class="action-title">kampaniya</div>
+                      <div class="action-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Facilis laboriosam ab incidunt Lorem ipsum dolor sit
+                        amet consectetur adipisicing elit. Modi sapiente saepe
+                        corporis magni officiis! .
+                      </div>
+                      <div class="date">
+                        <i class="fa-solid fa-calendar-days"></i>01.15.2023
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-12">
-          <div class="single-item mb-2" data-aos-duration="1000" data-aos="fade-up">
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="action-image">
-                  <img src="./assets/images/actions/actions.png" alt="action-img">
-                </div>
-              </div>
-              <div class="col-lg-8 px-4">
-                <div class="action-info">
-                  <div class="action-title">kampaniya</div>
-                  <div class="action-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis laboriosam ab incidunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sapiente saepe corporis magni officiis!
-                    .</div>
-                  <div class="date"><i class="fa-solid fa-calendar-days"></i>01.15.2023</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-       </div>
-      </div>
-    </section>
+      </section>
     </main>
-    <footer
-      class="general-footer"
-    
-    >
+    <footer class="general-footer">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-3 d-flex align-items-center flex-column">
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 mb-3 d-flex align-items-center flex-column"
+          >
             <a href="" class="footer-logo">
-           <img src="./assets/images/logo/logo.png" alt="logo">
+              <img src="./assets/images/logo/logo.png" alt="logo" />
             </a>
             <ul class="social-media-links d-flex align-items-center">
               <li>
-                <a href="mailto:info@luxtires.az
-                " class="link"
-                  ><i class="fa-regular fa-envelope"></i></a>
+                <a
+                  href="mailto:info@luxtires.az
+                "
+                  class="link"
+                  ><i class="fa-regular fa-envelope"></i
+                ></a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/company/luxtiresaz/ " class="link"
+                <a
+                  href="https://www.linkedin.com/company/luxtiresaz/ "
+                  class="link"
                   ><i class="fa-brands fa-linkedin-in"></i
                 ></a>
               </li>
 
               <li>
-                <a href="https://www.instagram.com/nexentire.az/?igshid=YmMyMTA2M2Y%3D
-                " class="link"
+                <a
+                  href="https://www.instagram.com/nexentire.az/?igshid=YmMyMTA2M2Y%3D
+                "
+                  class="link"
                   ><i class="fa-brands fa-instagram"></i
                 ></a>
               </li>
             </ul>
-            </div>
+          </div>
           <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
             <div class="footer-column">
               <div class="column-title">Menyular</div>
@@ -294,22 +372,31 @@
               </ul>
             </div>
           </div>
-          
+
           <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
             <div class="footer-column contact-column">
               <div class="column-title">Əlaqə</div>
-              <a href="tel:***" class="num"><i class="fa-solid fa-phone me-1"></i>* ***</a>
-              <a href="mailto: info@luxtires.az" class="num "><i class="fa-solid fa-envelope me-1"></i> info@luxtires.az</a>
-              <a href="https://goo.gl/maps/1xMMpBR7N8ewhhTb9" target="blank" class=" num address"><i class="fa-solid fa-location-dot me-1"></i>Xətai prospekti 34, Luxen plaza</a>
-     
+              <a href="tel:***" class="num"
+                ><i class="fa-solid fa-phone me-1"></i>* ***</a
+              >
+              <a href="mailto: info@luxtires.az" class="num"
+                ><i class="fa-solid fa-envelope me-1"></i> info@luxtires.az</a
+              >
+              <a
+                href="https://goo.gl/maps/1xMMpBR7N8ewhhTb9"
+                target="blank"
+                class="num address"
+                ><i class="fa-solid fa-location-dot me-1"></i>Xətai prospekti
+                34, Luxen plaza</a
+              >
             </div>
           </div>
         </div>
       </div>
     </footer>
-  <div class="back-to-top">
-    <i class="fa-solid fa-arrow-up"></i>
-  </div>
+    <div class="back-to-top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
     <!-- Jquery-->
     <script src="./js/jquery/jquery.min.js"></script>
     <!-- Bootstrap Js-->
@@ -318,11 +405,11 @@
     <script src="./assets/slick/slick.min.js"></script>
     <!-- Fancybox Js -->
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-      <!-- Counter Up -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-   <!-- Aos Js -->
-   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Counter Up -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <!-- Aos Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Main Js -->
     <script src="./js/main/main.js"></script>
   </body>
